@@ -1,2 +1,11 @@
 # SchoolSMS
-Sends text messages with relation information about upcoming assignemnts and chapels
+- Works with covenant.edu website
+- the login file is excluded for obvious reasons
+- Sends text messages 24, 12, 6, 3 hours before an assignment is due
+- Sends a text message when a chapel credit is recieved/lost
+- Responds to (case-insensitive):
+- "Assignments": gives the assignments in the next week that are due (in order)
+- "Chapels": gives the number of chapels left, the number that must be attended, and the number of skips left
+- "Skips": gives the amount of skips left
+- "Test": simple message to make sure the program is running and responsive
+- "Help": lists all commands
